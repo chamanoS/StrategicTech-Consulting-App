@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const programs = [
   {
-    title: "Portfolio Builder Programme",
+    title: "Portfolio Builder ",
     description:
       "A structured programme designed to help students build stronger GitHub portfolios, improve project quality, and present themselves more confidently for internships and entry-level roles.",
     points: [
@@ -43,15 +43,11 @@ const outcomes = [
       "Students leave with better-structured work that reflects practical effort and clearer personal direction.",
   },
   {
-    title: "Better professional readiness",
+    title: "Better professional readiness and Confidence for job market",
     description:
-      "The academy focuses on how students present themselves, communicate, and prepare for real workplace expectations.",
+      "The academy focuses on how students present themselves, communicate, and prepare for real workplace.The goal is to reduce uncertainty and help students move into interviews and networking with more confidence.",
   },
-  {
-    title: "More confidence for the job market",
-    description:
-      "The goal is to reduce uncertainty and help students move into applications, interviews, and networking with more confidence.",
-  },
+  
 ];
 
 const audience = [
@@ -88,7 +84,7 @@ export default function AcademyPage() {
             <div className="animate-fade-up">
               <p className="eyebrow">Academy</p>
 
-              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-6xl">
+              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-5xl">
                 Career preparation support designed to help students enter the
                 tech job market with more confidence.
               </h1>
@@ -160,16 +156,6 @@ export default function AcademyPage() {
                     </div>
                   ))}
 
-                  <div className="rounded-2xl border bg-[#fffdfa] p-5 subtle-divider">
-                    <p className="text-sm font-medium text-[var(--brand-gold-dark)]">
-                      Academy focus
-                    </p>
-                    <p className="mt-2 text-sm leading-7 text-[var(--text-secondary)]">
-                      Practical growth, clearer direction, and stronger
-                      positioning for students preparing to enter the tech
-                      industry.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
