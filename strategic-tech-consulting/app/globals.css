@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #fcfbf8;
@@ -18,16 +20,6 @@
   --brand-gold-dark: #8f6f3f;
   --brand-brown: #6b4f3a;
   --brand-brown-soft: #8c6b52;
-
-  --success: #2f6f4f;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
