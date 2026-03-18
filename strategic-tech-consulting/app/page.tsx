@@ -33,8 +33,6 @@ const academyPrograms = [
 ];
 
 const trustItems = [
-  "5 years industry experience",
-  "Full-stack development and BI background",
   "Exposure across banking and construction technology",
   "Founder-led delivery with practical business thinking",
 ];
@@ -46,14 +44,11 @@ export default function HomePage() {
         <div className="container-shell">
           <div className="split-grid">
             <div>
-              <span className="highlight-chip">
-                Founder-led consulting with community impact
-              </span>
 
-              <h1 className="mt-6 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-6xl">
+              <h3 className="mt-6 max-w-3xl text-2xl font-semibold tracking-tight text-[var(--text-primary)] md:text-4xl">
                 Technology consulting for growing businesses, with a practical
                 path for future tech talent.
-              </h1>
+              </h3>
 
               <p className="mt-6 max-w-2xl text-base leading-8 text-[var(--text-secondary)] md:text-lg">
                 Strategic Tech Consulting helps businesses improve systems,
@@ -120,16 +115,6 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="metric-card">
-                  <p className="text-sm font-medium text-[var(--text-muted)]">
-                    Built for realistic delivery
-                  </p>
-                  <p className="mt-3 text-sm leading-7 text-[var(--text-secondary)]">
-                    Strategic Tech Consulting is intentionally structured for
-                    founder-led quality now, with room to scale through trusted
-                    collaboration as client demand grows.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
