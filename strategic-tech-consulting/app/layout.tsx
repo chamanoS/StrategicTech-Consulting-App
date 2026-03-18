@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Strategic Tech Consulting",
   description:
-    "Strategic Tech Consulting helps growing businesses improve systems, insights, and digital capability while preparing future tech talent for the job market.",
+    "Strategic Tech Consulting helps growing businesses improve systems, reporting, automation, and digital capability while preparing future tech talent for the job market.",
 };
 
 export default function RootLayout({
@@ -17,8 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="site-bg-pattern" />
         <Navbar />
-        <main>{children}</main>
+        <main className="relative z-[1]">{children}</main>
         <Footer />
       </body>
     </html>

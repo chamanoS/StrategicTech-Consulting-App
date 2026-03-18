@@ -96,7 +96,7 @@ export default function CaseStudiesPage() {
             <div className="animate-fade-up">
               <p className="eyebrow">Case studies</p>
 
-              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-6xl">
+              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-5xl">
                 Representative work that shows how strategy, systems, and
                 practical delivery come together.
               </h1>
