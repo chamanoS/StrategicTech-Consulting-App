@@ -53,7 +53,7 @@ export default function FounderPage() {
             <div className="animate-fade-up">
               <p className="eyebrow">Founder</p>
 
-              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-6xl">
+              <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-[var(--text-primary)] md:text-4xl">
                 Building practical technology solutions with a strong business
                 mindset and a commitment to community impact.
               </h1>
@@ -75,7 +75,7 @@ export default function FounderPage() {
                 </Link>
               </div>
 
-              <div className="mt-10 grid gap-3 sm:grid-cols-2">
+              {/* <div className="mt-10 grid gap-3 sm:grid-cols-2">
                 <div className="rounded-xl border bg-white px-4 py-4 subtle-divider transition duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(0,0,0,0.04)]">
                   <p className="text-sm font-medium text-[var(--brand-gold-dark)]">
                     Industry exposure
@@ -95,14 +95,14 @@ export default function FounderPage() {
                     in History and Information Science at UNISA.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="animate-fade-up-delay">
-              <div className="overflow-hidden rounded-[2rem] border bg-white p-3 subtle-divider shadow-[0_18px_50px_rgba(0,0,0,0.05)]">
-                <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-[#f4f1eb]">
+             <div className="overflow-hidden rounded-[2rem] border bg-white p-2 subtle-divider shadow-[0_10px_30px_rgba(0,0,0,0.05)] max-w-sm mx-auto">
+               <div className="relative h-[480px] w-full max-w-sm mx-auto overflow-hidden rounded-[1.5rem] bg-[#f4f1eb]">
                   <Image
-                    src="/images/founder.jpg"
+                    src="/images/founder.jpeg"
                     alt="Founder of Strategic Tech Consulting"
                     fill
                     className="object-cover transition duration-700 hover:scale-[1.02]"
