@@ -304,7 +304,7 @@ export default function HomePage() {
               <div className="founder-preview-shape founder-preview-shape-2" />
 
               <div className="relative z-[1]">
-                <div className="flex h-24 w-24 items-center justify-center rounded-full bg-[var(--brand-brown)] text-3xl font-semibold text-white shadow-[0_12px_24px_rgba(107,79,58,0.18)]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--brand-brown)] text-2xl font-semibold text-white shadow-[0_12px_24px_rgba(107,79,58,0.18)]">
                   ST
                 </div>
 
